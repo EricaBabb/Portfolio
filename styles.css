@@ -9,6 +9,18 @@
   --color-border: #e7e0d8;
   --color-accent: #8a5f5a;
 
+  /* --color-bg: #181514;
+  --color-text: #f4eee8;
+  --color-muted: #b8aaa3;
+  --color-border: #342d2a;
+  --color-accent: #d49a91; */
+
+  /* --color-bg: #1f1b19;
+  --color-text: #efe7df;
+  --color-muted: #a99b94;
+  --color-border: #3a322f;
+  --color-accent: #c98f86; */
+
   --font-main: "Inter", Arial, Helvetica, sans-serif;
 
   --container-width: 620px;
@@ -122,21 +134,27 @@ a:hover {
   object-fit: cover;
   background-color: #d9d9d9;
   margin-bottom: 1.25rem;
-  border-radius: 50%;
+  border-radius: 5%;
   border: 1px solid var(--color-border);
 }
 
 .hero-heading {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 1.75rem;
   margin-bottom: 1.25rem;
 }
 
 .hero h1 {
-  font-size: 1.9rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin: 0;
+}
+
+.hero-title p {
+  color: var(--color-muted);
+  margin-top: 0.4rem;
+  font-size: 1rem;
 }
 
 /* ---------- */
